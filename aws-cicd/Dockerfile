@@ -1,0 +1,4 @@
+FROM nginx
+COPY ./html/* /usr/share/nginx/htmlsry
+EXPOSE 80
+
